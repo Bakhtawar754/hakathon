@@ -1,0 +1,180 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 25px;
+    margin: 40px;
+}
+.logo1{
+    margin-top: 0px;
+}
+.nav02{
+    display: flex;
+    gap: 80px;
+    
+
+}
+.list{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin: 40px;
+
+}
+.button{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+   background-color: transparent;
+}
+.para01{
+    height: 200px;
+    width: 280px;
+    margin: 30px;
+    font-size: 40px;
+
+}
+.para02{
+    height: 100px;
+    width: 300px;
+    margin: 30px;
+}
+.button02{
+    margin: 30px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+
+}
+.image01{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+.amazon{
+    width: 80px;
+    height: 30px;
+    margin: 20px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    
+}
+.services{
+    display: flex;
+}
+.heading02{
+margin: 40px;
+font-size: 25px;
+font-style: oblique;
+background-color: #B9FF66;
+}
+.para03{
+margin: 40px;
+width: 450px;
+}
+.box01{
+    border: 2px solid black;
+    width: 350px;
+    height: 200px;
+    margin: 30px;
+    border-radius: 20px;
+    display: flex;
+
+
+}
+.boxh{
+    width: 150px;
+    height: 50px;
+    margin: 30px;
+    font-size: 20px;
+    background-color: #B9FF66;
+}
+.box01{
+    background-color: #F3F3F3; 
+}
+.boxl{
+    margin: 20px;
+    float: inline-end;
+    float: left;
+
+    
+}
+.boximage1{
+    width: 100px;
+    height: 150px;
+float: right;
+
+
+
+    
+
+}
+.boxh1{
+    width: 150px;
+    height: 50px;
+    margin: 30px;
+    font-size: 20px;
+    background-color: white;
+}
+.box02{
+    background-color: #B9FF66;
+    border: 2px solid black;
+    width: 350px;
+    height: 200px;
+    margin: 30px;
+    border-radius: 20px;
+    display: flex;
+
+
+}
+.boxes{
+    display: flex;
+}
+
+
+@media  only screen and (max-width :320px
+){
+  .heading{
+    font-size: 45px;
+    margin: 20px;
+  } 
+  .logo1{
+    width: 40px;
+  } 
+  .list{
+    display: none;
+  }
+.button{
+    display: none;
+}
+.para01{
+    font-size: 25px;
+}
+.image01{
+    display: block;
+    float: right;
+    width: 150px;
+}
+
+
+
+
+
+
+}
